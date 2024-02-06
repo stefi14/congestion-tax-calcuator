@@ -1,0 +1,2 @@
+* the requirements are too open so it is hard to know what the stakeholder wants from the app. Is it a montly payment or is it daily? often you want to check in the database the vehicle id and from a startdate to an end date  calculate the payment. 
+* Is this an app/service that would be called from annother API. Bescause it would be hard to  write the list of dates. It shouldn be any logic like that in the front-end for instance. 
