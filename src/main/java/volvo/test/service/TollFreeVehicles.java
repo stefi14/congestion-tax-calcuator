@@ -1,12 +1,11 @@
 package volvo.test.service;
 
 public enum TollFreeVehicles {
-
     MOTORCYCLE,
-    Tractor,
-    Diplomat,
-    Foreign,
-    Military;
+    TRACTOR,
+    DIPLOMAT,
+    FOREIGN,
+    MILITARY;
 
     public static boolean isTollFreeVehicle(String vehicleType) {
         for (TollFreeVehicles type : TollFreeVehicles.values()){
