@@ -2,8 +2,9 @@ Welcome the Volvo Cars Congestion Tax Calculator assignment.
 
 Use the IDE of your preference run the project and go to http://localhost:8080/swagger-ui/
 and test congestion-tax-calculator-controller GET /congestiont/calculate tax click on it and then try it out with different inputs such as:
-* 
+
 * Car with city 1
+
 {
 "id": 1,
 "lisencePlate": "1234",
@@ -18,6 +19,7 @@ and test congestion-tax-calculator-controller GET /congestiont/calculate tax cli
 }
 
 * Car with city 2
+
 {
 "id": 1,
 "lisencePlate": "1234",
@@ -31,7 +33,7 @@ and test congestion-tax-calculator-controller GET /congestiont/calculate tax cli
 ]
 }
 
-
+* Motorcycle with city 2
 {
 "id": 1,
 "lisencePlate": "45656",
